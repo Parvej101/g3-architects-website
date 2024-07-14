@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font{
+    font-family: work-sans;
+}
+/* shared styles */
+.display-flex{
+    display: flex;   
+}
+.dark2{
+color: rgb(66, 66, 66);
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);}
+    .primary-button{
+        border-radius: 8px;
+        background-color: rgb(255, 144, 14);
+        color: rgb(255, 255, 255);
+        font-size:1.25 rem;
+        font-weight: 600;
+        text-align: center;
+        padding: 21px 24px;
+        border: none;
+       
+    }
+    main > section{
+        margin: 130px;
+    }
+
+/* Navbar */
+
+.nav-link{
+    text-decoration: none;
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar, .banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+/* banner styles */
+.banner-container{
+    max-width:860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-image{
+    width: 100%;
+    margin: 0 auto;
+}
+/* Features section */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.features-section{
+    align-items: center;
+}
+.features-images{
+    /* width: 600px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.features-details{
+   
+    margin-left: 100px ;
+    max-width: 1200px;
+    padding: 10px;
+   
+    
+    
+}
+
+.features-details span{
+    font-size: 3rem;
+    font-weight: 700;
+}
+#features{
+color:rgb(255, 144, 14)
+}
+.features-description{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+}
+
+/* Responsive media query */
+
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    .nav-links{
+        font-size: 2em;
+        gap: 10px;
+    }
+}
