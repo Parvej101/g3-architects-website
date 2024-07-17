@@ -22,9 +22,9 @@ color: rgb(66, 66, 66);
         border: none;
        
     }
-    main > section{
+    /* main > section{
         margin: 130px;
-    }
+    } */
 
 /* Navbar */
 
@@ -96,53 +96,59 @@ color:rgb(255, 144, 14)
 }
 .features-description{
     color: rgb(114, 114, 114);
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 400;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
 }
 /* enjoy-section */
-.enjoy-description{
-    color: rgb(114, 114, 114);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-text-align: left;
-}
-.enjoy-title{
-    color: rgb(19, 19, 19);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-text-align: left;
-}
+
 .enjoy-header{
     color: rgb(19, 19, 19);
-font-family: Work Sans;
-font-size: 45px;
-font-weight: 700;
-line-height: 53px;
-letter-spacing: 0%;
-text-align: left;
-}
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 21px;
+    }
+    .enjoy-title{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    .enjoy-card{
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+    }
 .enjoy-section{
-    margin: 130px 240px;
+    margin-top: 50px;
     gap: 50px;
-    width: 600px;
-    height: 500px;
-    background-color: aquamarine;
-}
-.enjoy-image{
-    width: 708px;
-    height: 982px;
-}
-.enjoy-image img{
-    width: 100%;
 }
 .enjoy-container{
     width: 586px;
-    height: 982px;
+height: 982px;
 }
+#experince-button{
+    padding: 42px 45px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -50px;
+    margin-top: -700px;
+}
+#experince-year{
+ font-size: 4rem;
+ font-weight: 700;
+}
+.enjoy-image img{
+    width:100%;
+}
+
 /* Fact area */
+.some-fact-section{
+    margin-top: 200px;
+}
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -229,5 +235,9 @@ text-align: left;
     .sponsor-brand{
         gap: 50px;
         justify-items: center;
+    }
+    #experince-button{
+        margin-top: 20px;
+        margin-left: 10px;
     }
 }
